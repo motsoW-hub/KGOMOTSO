@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="160" height="160" role="img" aria-label="OWM Purifier logo">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#4fc3f7" />
+      <stop offset="1" stop-color="#0288d1" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" rx="12" fill="transparent"/>
+  <path fill="url(#g)" d="M32 2C32 2 10 24 10 38a22 22 0 0 0 44 0C54 24 32 2 32 2z"/>
+  <circle cx="32" cy="36" r="6" fill="#e1f5fe" opacity="0.95"/>
+</svg>
