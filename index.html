@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>OWM Purifier — Purified Water</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<img src="images/logo.svg" alt="OWM Purifier logo" class="logo" />
+		<h1>OWM Purifier</h1>
+		<p class="tag">HYDRATE WITH CONFIDENCE</p>
+		<p class="owner">Owner: Otladiseng Moremi</p>
+		<nav>
+			<a href="#about">About</a>
+			<a href="#products">Products</a>
+			<a href="#contact">Contact</a>
+		</nav>
+	</header>
+
+	<main>
+		<section id="about">
+			<h2>About Us</h2>
+			<p>OWM Purifier delivers clean, great-tasting purified water to households and businesses. We use modern purification methods to ensure water safety and freshness.</p>
+			<p><strong>Why choose us:</strong> Reliable delivery, safe purification, and friendly service.</p>
+		</section>
+
+		<section id="products">
+			<h2>Our Products</h2>
+			<div class="grid">
+				<div class="card">
+					<h3>5L Bottles</h3>
+					<p>Perfect for home and office dispensers.</p>
+				</div>
+				<div class="card">
+					<h3>20L Jugs</h3>
+					<p>Bulk option for families and small businesses.</p>
+				</div>
+				<div class="card">
+					<h3>Refill Service</h3>
+					<p>Bring your bottles and we will refill them with purified water.</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<form class="contact-form" onsubmit="event.preventDefault(); alert('This is a demo form. Call or email us to place an order.');">
+				<label for="name">Name</label>
+				<input id="name" name="name" type="text" placeholder="Your name" required>
+
+				<label for="email">Email</label>
+				<input id="email" name="email" type="email" placeholder="you@example.com">
+
+				<label for="message">Message</label>
+				<textarea id="message" name="message" rows="4" placeholder="Your message"></textarea>
+
+				<button class="btn" type="submit">Send Message</button>
+			</form>
+
+			<div class="contact-info">
+				<p>Email: <a href="mailto:moremiotladisang2@gmail.com">moremiotladisang2@gmail.com</a></p>
+				<p>Phone: <a href="tel:0832043358">083 204 3358</a> / <a href="tel:0697736785">069 773 6785</a></p>
+				<p>Address: <a href="https://www.google.com/maps/search/?api=1&query=50005+Raleanyane+Section+Borakalalo+2872" target="_blank" rel="noopener">50005 Raleanyane Section, Borakalalo, 2872</a></p>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2025 OWM Purifier. All rights reserved.</p>
+		<p class="credit">Site by Otladiseng Moremi</p>
+	</footer>
+
+</body>
+</html>
+
